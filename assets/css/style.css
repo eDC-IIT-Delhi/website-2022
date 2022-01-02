@@ -2362,3 +2362,25 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+
+
+
+.contact-button{
+  background: #4154f1;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact-form{
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+}
+
+textarea{
+  height: 140px;
+}
