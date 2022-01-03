@@ -12,4 +12,5 @@
 ### Udit
 - [x] Landing page theme
 ### Vaibhav
-- [ ] Footer
+- [x] Footer
+- [x] Contact us  
