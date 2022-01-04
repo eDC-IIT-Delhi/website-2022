@@ -4,8 +4,9 @@
 - [ ] random
 
 ### Hemali
-- [ ] Team page
-- [ ] random
+- [ ] IITD unicorns on landing pg
+- [ ] Team on landing + separate pg
+- [ ] sponsors on landing + separate pg
 ### Samir
 - [ ] Header
 - [ ] Landing page
