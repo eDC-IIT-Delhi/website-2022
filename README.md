@@ -16,3 +16,4 @@
 - [x] Footer
 - [x] Contact us  
 - [x] Events 
+- [x] Gallery + seperate pg 
