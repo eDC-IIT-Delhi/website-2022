@@ -15,3 +15,4 @@
 ### Vaibhav
 - [x] Footer
 - [x] Contact us  
+- [x] Events 
