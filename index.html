@@ -1,252 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>| eDC IITD</title>
+    <meta content="" name="description" />
 
-  <title>| eDC IITD</title>
-  <meta content="" name="description">
+    <meta content="" name="keywords" />
 
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/icon-e.png" rel="icon" />
+    <!-- <link href="assets/img/black bg logo 2.png" rel="apple-touch-icon"> -->
 
-  <!-- Favicons -->
-  <link href="assets/img/black bg logo 2.png" rel="icon" >
-  <!-- <link href="assets/img/black bg logo 2.png" rel="apple-touch-icon"> -->
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+      <div
+        class="
+          container-fluid container-xl
+          d-flex
+          align-items-center
+          justify-content-between
+        "
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img
+            src="assets/img/blue-01.png"
+            alt=""
+            style="max-width: 100%; height: auto; image-rendering: crisp-edges"
+          />
+          <!-- <span>&nbsp;eDC IITD</span> -->
+        </a>
 
-</head>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Events</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+            <li class="dropdown">
+              <a href="#team"
+                ><span>Team</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="./team22.html">Team '22</a></li>
+                <li><a href="./team21.html">Team '21</a></li>
+                <li><a href="./team20.html">Team '20</a></li>
+                <li><a href="./team19.html">Team '19</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#row feture-tabs"
+                ><span>Socials</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/edc_iitd/?hl=en"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/edciitdelhi/posts"
+                    >FaceBook</a
+                  >
+                </li>
+                <li><a href="https://twitter.com/edciitdelhi">Twitter</a></li>
+                <li>
+                  <a href="https://in.linkedin.com/company/edc-iit-delhi"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#row feture-tabs"
+                ><span>Becon '22</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="./becon.html">Register</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Events</span> <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">StartUp Expo</a></li>
+                    <li><a href="#">Shark Tank</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Workshops</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Sponsors</a></li>
+              </ul>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+            <li>
+              <a class="getstarted scrollto" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/blue-01.png" alt="" style="max-width: 100%;
-  height: auto;">
-        <!-- <span>&nbsp;eDC IITD</span> -->
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Events</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <!-- <li><a href="https://kgececell.wordpress.com/" target="_blank">Socials</a></li> -->
-          <li class="dropdown"><a href="#row feture-tabs"><span>Socials</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="https://www.instagram.com/edc_iitd/?hl=en">Instagram</a></li>
-              <li><a href="https://www.facebook.com/edciitdelhi/posts">FaceBook</a></li>
-              <li><a href="https://twitter.com/edciitdelhi">Twitter</a></li>
-              <li><a href="https://in.linkedin.com/company/edc-iit-delhi">LinkedIn</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#row feture-tabs"><span>Becon '22</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="./becon.html">Register</a></li>
-              <li class="dropdown"><a href="#"><span>Events</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Event 1</a></li>
-                  <li><a href="#">Event 2</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Speakers</a></li>
-              <li><a href="#">Workshops</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Sponsors</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">We Ideate, Innovate, <br> Incubate.</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">With an aim to strive towards promoting entrepreneurship, we at eDC IIT Delhi are a group of enthusiasts working continuously to provide a platform to foster, inspire and help the young aspiring students open the door of the promising & exciting world of entrepreneurship</h2>
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">
+              We Ideate, Innovate, <br />
+              Incubate.
+            </h1>
+            <h2 data-aos="fade-up" data-aos-delay="400">
+              With an aim to strive towards promoting entrepreneurship, we at
+              eDC IIT Delhi are a group of enthusiasts working continuously to
+              provide a platform to foster, inspire and help the young aspiring
+              students open the door of the promising & exciting world of
+              entrepreneurship
+            </h2>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <!-- <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
-                <i class="bi bi-arrow-right"></i>
               </a>
+            </div> -->
             </div>
           </div>
+          <div
+            class="col-lg-6 hero-img"
+            data-aos="zoom-out"
+            data-aos-delay="200"
+          >
+            <!-- <img src="assets/img/edc-banner.png" class="img-fluid" alt="" style="border-radius: 15px;max-height:25rem;"> -->
+          </div>
         </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/edc-banner.png" class="img-fluid" alt="" style="border-radius: 15px;max-height:25rem;">
-        </div>
+        <br /><br /><br /><br />
+        <center>
+          <a
+            class="getstarted scrollto"
+            href="#about"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            ><i class="bi bi-arrow-down-circle-fill"></i
+          ></a>
+        </center>
       </div>
-    </div>
+    </section>
+    <!-- End Hero -->
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <h3>Who We Are</h3>
-              <h2>The Entrepreneurship Development Cell of IIT Delhi was set up in January 2007 with a vision
-                 to promote and nurture Entrepreneurship amongst the student community and help aspiring student entrepreneurs achive their entrepreneurial aspirations.</h2>
-              <p>
-                 As an institute, we are proud to have many luminary alumni who have made their mark in the entrepreneurial sphere. We are continuously working towards facilitating entrepreneurship education and develop a comprehensive resource pool. In this pursuit, eDC IIT 
-                 Delhi has successfully organized a plethora of events ranging from Exclusive Townhall Sessions with top entrepreneurs to competitions, workshops and colloquiums.
-              </p>
-              <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Who We Are</h3>
+                <h2>
+                  The Entrepreneurship Development Cell of IIT Delhi was set up
+                  in January 2007 with a vision to promote and nurture
+                  Entrepreneurship amongst the student community and help
+                  aspiring student entrepreneurs achive their entrepreneurial
+                  aspirations.
+                </h2>
+                <p>
+                  As an institute, we are proud to have many luminary alumni who
+                  have made their mark in the entrepreneurial sphere. We are
+                  continuously working towards facilitating entrepreneurship
+                  education and develop a comprehensive resource pool. In this
+                  pursuit, eDC IIT Delhi has successfully organized a plethora
+                  of events ranging from Exclusive Townhall Sessions with top
+                  entrepreneurs to competitions, workshops and colloquiums.
+                </p>
+                <div class="text-center text-lg-start">
+                  <a
+                    href="./about.html"
+                    class="
+                      btn-read-more
+                      d-inline-flex
+                      align-items-center
+                      justify-content-center
+                      align-self-center
+                    "
+                  >
+                    <span>Read More</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/edc-about.jpeg" class="img-fluid" alt="" style="border-radius: 10px;">
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/edc-about.jpeg"
+                class="img-fluid"
+                alt=""
+                style="border-radius: 10px"
+              />
+            </div>
           </div>
-
         </div>
-      </div>
+      </section>
+      <!-- End About Section -->
 
-    </section><!-- End About Section -->
+      <!-- ======= Values Section ======= -->
+      <section id="values" class="values">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Our Values</h2>
+            <p>We Believe In</p>
+          </header>
 
-    <!-- ======= Values Section ======= -->
-    <section id="values" class="values">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/values-1.png" class="img-fluid" alt="" />
+                <h3>Ideate</h3>
+                <p>
+                  Connecting the Problem of the society and need of the society
+                  will create a successful enterprise.
+                </p>
+              </div>
+            </div>
 
-      <div class="container" data-aos="fade-up">
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/img/values-2.png" class="img-fluid" alt="" />
+                <h3>Innovate</h3>
+                <p>
+                  Innovation needs knowledge, exposing the students to
+                  technology will bring out innovation.
+                </p>
+              </div>
+            </div>
 
-        <header class="section-header">
-          <h2>Our Values</h2>
-          <p>We Believe In</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/values-1.png" class="img-fluid" alt="">
-              <h3>Innovate.</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/img/values-3.png" class="img-fluid" alt="" />
+                <h3>Incubate</h3>
+                <p>
+                  Mentorship and technical expertise will help the students to
+                  mould their ideas into successful products.
+                </p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="400">
-              <img src="assets/img/values-2.png" class="img-fluid" alt="">
-              <h3> Invigorate.</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="600">
-              <img src="assets/img/values-3.png" class="img-fluid" alt="">
-              <h3>Inculcate.</h3>
-              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
-            </div>
-          </div>
-
         </div>
+      </section>
+      <!-- End Values Section -->
 
-      </div>
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="50000
+"
+                    data-purecounter-duration="2"
+                    class="purecounter"
+                  ></span>
+                  <p>Footfall</p>
+                </div>
+              </div>
+            </div>
 
-    </section><!-- End Values Section -->
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-people" style="color: #ee6c20"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="400"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Delegates</p>
+                </div>
+              </div>
+            </div>
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-headset" style="color: #15be56"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="50"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Speakers</p>
+                </div>
+              </div>
+            </div>
 
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="50000
-"  data-purecounter-duration="2" class="purecounter"></span>
-                <p>Footfall</p>
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-cash" style="color: #bb0852"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="250000"
+                    data-purecounter-duration="2"
+                    data-purecounter-currencysymbol="₹"
+                    data-purecounter-currency="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Prizes Worth INR</p>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-people" style="color: #ee6c20;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Delegates</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-headset" style="color: #15be56;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Speakers</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-cash" style="color: #bb0852;"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="250000" data-purecounter-duration="2" class="purecounter"></span>
-                <p>Prizes Worth INR</p>
-              </div>
-            </div>
-          </div>
-
         </div>
+      </section>
+      <!-- End Counts Section -->
 
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-
-      <div class="container" data-aos="fade-up">
-
-        <!-- <header class="section-header">
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container" data-aos="fade-up">
+          <!-- <header class="section-header">
           <h2>Our Achivements</h2>
           <p style="font-size: 25px;">“You never change your life until you step out of your comfort zone; change begins at the end of your comfort zone.” ― Roy T. Bennett</p>
-        </header>
+        </header> -->
 
-        <div class="row">
+          <!-- <div class="row">
 
           <div class="col-lg-6">
             <img src="assets/img/features.png" class="img-fluid" alt="">
@@ -298,86 +421,136 @@
               </div>
 
             </div>
-          </div > -->
+          </div >
 
-        <!-- </div>  -->
+</div>  -->
 
-        <!-- Feature Tabs -->
-        <div id="row feture-tabs"></div>
-        <div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3>About our Flagship event Becon-2022</h3>
+          <!-- Feature Tabs -->
+          <div id="row feture-tabs"></div>
+          <div class="row feture-tabs" data-aos="fade-up">
+            <div class="col-lg-6">
+              <h3>About our Flagship event Becon-2022</h3>
 
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">What's Becon</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Prominent speakers</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Events</a>
-              </li>
-            </ul><!-- End Tabs -->
+              <!-- Tabs -->
+              <ul class="nav nav-pills mb-3">
+                <li>
+                  <a class="nav-link active" data-bs-toggle="pill" href="#tab1"
+                    >What's Becon</a
+                  >
+                </li>
+              </ul>
+              <!-- End Tabs -->
 
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade show active" id="tab1">
-                <p>eDC IIT Delhi's Business & Entrepreneurship Conclave with 50+ events spread across 4 days is one of the biggest E-summit of India.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Becon-2022 | Revolutionising the paradigm</h4>
+              <!-- Tab Content -->
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1">
+                  <p>
+                    eDC IIT Delhi's Business & Entrepreneurship Conclave with
+                    50+ events spread across 4 days is one of the biggest
+                    E-summit of India.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-check2"></i>
+                    <h4>Becon-2022 | Revolutionising the paradigm</h4>
+                  </div>
+                  <p>
+                    We aim to bring together the world's leading business
+                    leaders, entrepreneurs and change makers and connect them
+                    with bright young minds - virtually this time.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-check2"></i>
+                    <h4>Becon- Goals</h4>
+                  </div>
+                  <p>
+                    eDC IIT Delhi aspires to inculcate the entrepreneurial
+                    environment in our country by creating an easily accessible
+                    set of resources and connecting people with entrepreneurial
+                    mindset.
+                  </p>
                 </div>
-                <p>We aim to bring together the world's leading business leaders, entrepreneurs and change makers and connect them with bright young minds - virtually this time. </p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Becon- Goals</h4>
-                </div>
-                <p> eDC IIT Delhi aspires to inculcate the entrepreneurial environment in our country by creating an easily accessible set of resources and connecting people with entrepreneurial mindset.</p>
-              </div><!-- End Tab 1 Content -->
+                <!-- End Tab 1 Content -->
 
-              <div class="tab-pane fade show" id="tab2">
-                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                <div class="tab-pane fade show" id="tab2">
+                  <p>
+                    Consequuntur inventore voluptates consequatur aut vel et.
+                    Eos doloribus expedita. Sapiente atque consequatur minima
+                    nihil quae aspernatur quo suscipit voluptatem.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-check2"></i>
+                    <h4>
+                      Repudiandae rerum velit modi et officia quasi facilis
+                    </h4>
+                  </div>
+                  <p>
+                    Laborum omnis voluptates voluptas qui sit aliquam
+                    blanditiis. Sapiente minima commodi dolorum non eveniet
+                    magni quaerat nemo et.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-check2"></i>
+                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                  </div>
+                  <p>
+                    Non quod totam minus repellendus autem sint velit. Rerum
+                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
+                    qui inventore eligendi voluptates nisi at. Dolorem quo
+                    tempora. Quia et perferendis.
+                  </p>
                 </div>
-                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                </div>
-                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-              </div><!-- End Tab 2 Content -->
+                <!-- End Tab 2 Content -->
 
-              <div class="tab-pane fade show" id="tab3">
-                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                <div class="tab-pane fade show" id="tab3">
+                  <p>
+                    Consequuntur inventore voluptates consequatur aut vel et.
+                    Eos doloribus expedita. Sapiente atque consequatur minima
+                    nihil quae aspernatur quo suscipit voluptatem.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-check2"></i>
+                    <h4>
+                      Repudiandae rerum velit modi et officia quasi facilis
+                    </h4>
+                  </div>
+                  <p>
+                    Laborum omnis voluptates voluptas qui sit aliquam
+                    blanditiis. Sapiente minima commodi dolorum non eveniet
+                    magni quaerat nemo et.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-check2"></i>
+                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                  </div>
+                  <p>
+                    Non quod totam minus repellendus autem sint velit. Rerum
+                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
+                    qui inventore eligendi voluptates nisi at. Dolorem quo
+                    tempora. Quia et perferendis.
+                  </p>
                 </div>
-                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                </div>
-                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-              </div><!-- End Tab 3 Content -->
-
+                <!-- End Tab 3 Content -->
+              </div>
             </div>
 
+            <div class="col-lg-6">
+              <img
+                src="assets/img/becon-logo1.svg"
+                class="img-fluid"
+                alt=""
+                style="
+                  border-radius: 25px;
+                  margin-top: 26px;
+                  background-color: black;
+                  max-width: 25rem;
+                "
+              />
+            </div>
           </div>
+          <!-- End Feature Tabs -->
 
-          <div class="col-lg-6">
-            <img src="assets/img/becon-logo1.svg" class="img-fluid" alt="" style="border-radius: 25px; margin-top: 26px;background-color: black;max-width: 25rem;">
-          </div>
-
-        </div><!-- End Feature Tabs -->
-
-        <!-- Feature Icons -->
-        <div class="row feature-icons" data-aos="fade-up">
+          <!-- Feature Icons -->
+          <!-- <div class="row feature-icons" data-aos="fade-up">
           <h3>Initiatives we've taken to ensure overall growth and Development</h3>
 
           <div class="row">
@@ -442,299 +615,291 @@
 
           </div>
 
-        </div><!-- End Feature Icons -->
-
-      </div>
-
-    </section><!-- End Features Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Events</h2>
-          <p>Citius - Altius - Fortius</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Pitch-A-thon</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
-              <i class="ri-discuss-line icon"></i>
-              <h3>BizQuiz</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box green">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Stock Wars</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box red">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Cipher</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box purple">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Chase the Case</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box pink">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Insignation</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
+        </div> -->
         </div>
+      </section>
+      <!-- End Features Section -->
 
-      </div>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Events</h2>
+            <p>Becon '22 Events</p>
+          </header>
 
-    </section>
-    <!-- <section id="faq" class="faq">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>F.A.Q</h2>
-          <p>Frequently Asked Questions</p>
-        </header>
-
-        <div class="row">
-          <div class="col-lg-6">
-            
-            <div class="accordion accordion-flush" id="faqlist1">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                    Non consectetur a erat nam at lectus urna duis?
-                  </button>
-                </h2>
-                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                  <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </div>
-                </div>
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-box blue">
+                <i class="ri-discuss-line icon"></i>
+                <h3>One Day CEO challenge</h3>
+                <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p> -->
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
               </div>
+            </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                  </button>
-                </h2>
-                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                  <div class="accordion-body">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </div>
-                </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-box orange">
+                <i class="ri-discuss-line icon"></i>
+                <h3>Shark Tank</h3>
+                <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
               </div>
+            </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                  </button>
-                </h2>
-                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                  <div class="accordion-body">
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                  </div>
-                </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-box green">
+                <i class="ri-discuss-line icon"></i>
+                <h3>B-Plan Competition</h3>
+                <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p> -->
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
               </div>
+            </div>
 
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-box red">
+                <i class="ri-discuss-line icon"></i>
+                <h3>Virtual Stock Market simulation</h3>
+                <!-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p> -->
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-box purple">
+                <i class="ri-discuss-line icon"></i>
+                <h3>StartUp-Expo(Airmeet)</h3>
+                <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p> -->
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <div class="service-box pink">
+                <i class="ri-discuss-line icon"></i>
+                <h3>Pitch Deck Workshop</h3>
+                <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p> -->
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-6"> --> -->
-
-            
-            <div class="accordion accordion-flush" id="faqlist2">
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                  </button>
-                </h2>
-                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                  <div class="accordion-body">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                  </button>
-                </h2>
-                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                  <div class="accordion-body">
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                    Varius vel pharetra vel turpis nunc eget lorem dolor?
-                  </button>
-                </h2>
-                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                  <div class="accordion-body">
-                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
         </div>
+      </section>
 
-      </div>
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header" style="padding-bottom: 15px">
+            <p>Gallery</p>
+          </header>
 
-    </section> -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header" style="padding-bottom: 15px;">
-          
-          <p>Gallery</p>
-        </header>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 justify-content-center">
-            <ul style="text-align: center; padding:0 0 20px 0;">
-              <li style="display: inline;"><div class="explore"><button><a href="./gallery.html" >Explore +</a></button></div></li>
-              <!-- <li data-filter=".filter-app">App</li>
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 justify-content-center">
+              <ul style="text-align: center; padding: 0 0 20px 0">
+                <li style="display: inline">
+                  <div class="explore">
+                    <button><a href="./gallery.html">Explore +</a></button>
+                  </div>
+                </li>
+                <!-- <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li> -->
-            </ul>
-          </div>
-        </div>
-
-        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/edc1.png" class="img-fluid" alt="" style="border-radius: 12px;">
-              <div class="portfolio-info">
-                <h4></h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/edc1.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
-                </div>
-              </div>
+              </ul>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/edc4.png" class="img-fluid" alt="" style="border-radius: 12px;">
-              <div class="portfolio-info">
-                <h4></h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/edc4.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+          <div
+            class="row gy-4 portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/edc1.png"
+                  class="img-fluid"
+                  alt=""
+                  style="border-radius: 12px"
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/edc1.png"
+                      data-gallery="portfolioGallery"
+                      class="portfokio-lightbox"
+                      title=""
+                      ><i class="bi bi-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/edc3.png" class="img-fluid" alt="" style="border-radius: 12px;"> 
-              <div class="portfolio-info">
-                <h4></h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/edc3.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/edc4.png"
+                  class="img-fluid"
+                  alt=""
+                  style="border-radius: 12px"
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/edc4.png"
+                      data-gallery="portfolioGallery"
+                      class="portfokio-lightbox"
+                      title=""
+                      ><i class="bi bi-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/edc6.png" class="img-fluid" alt="" style="border-radius: 12px;">
-              <div class="portfolio-info">
-                <h4></h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/edc6.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/edc3.png"
+                  class="img-fluid"
+                  alt=""
+                  style="border-radius: 12px"
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/edc3.png"
+                      data-gallery="portfolioGallery"
+                      class="portfokio-lightbox"
+                      title=""
+                      ><i class="bi bi-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/edc2.png" class="img-fluid" alt="" style="border-radius: 12px;">
-              <div class="portfolio-info">
-                <h4></h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/edc2.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/edc6.png"
+                  class="img-fluid"
+                  alt=""
+                  style="border-radius: 12px"
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/edc6.png"
+                      data-gallery="portfolioGallery"
+                      class="portfokio-lightbox"
+                      title=""
+                      ><i class="bi bi-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/edc5.jpg" class="img-fluid" alt="" style="border-radius: 12px;">
-              <div class="portfolio-info">
-                <h4></h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/edc5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/edc2.png"
+                  class="img-fluid"
+                  alt=""
+                  style="border-radius: 12px"
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/edc2.png"
+                      data-gallery="portfolioGallery"
+                      class="portfokio-lightbox"
+                      title=""
+                      ><i class="bi bi-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/edc5.jpg"
+                  class="img-fluid"
+                  alt=""
+                  style="border-radius: 12px"
+                />
+                <div class="portfolio-info">
+                  <h4></h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/edc5.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfokio-lightbox"
+                      title=""
+                      ><i class="bi bi-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/edc7.jpg" class="img-fluid" alt=""style="border-radius: 12px;">
               <div class="portfolio-info">
@@ -775,376 +940,604 @@
               </div>
             </div>
           </div> -->
-
+          </div>
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      </div>
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Testimonials</h2>
+            <p>IITD Unicorns</p>
+          </header>
 
-    </section><!-- End Portfolio Section -->
+          <div
+            class="testimonials-slider swiper-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/sun.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Testimonials</h2>
-          <p>IITD Unicorns</p>
-        </header>
-
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/sun.jpg" class="testimonial-img" alt="">
-
-                <div class="profile mt-auto">
-                  <p>
-                    Vinod Khosla, an alumni of IIT Delhi founded Sun Microsystems, Inc. (Sun for short) as an American company that sold computers, computer components, software, and information technology services and created the Java programming
-                    language, the Solaris operating system, ZFS, the Network File System (NFS), and SPARC. Sun contributed significantly to the evolution of several key computing technologies, among them Unix, RISC processors, thin client
-                    computing, and virtualized computing.
-                  </p>
-                  <h3>Vinod Khosla</h3>
-                  <h4>Sun Microsystems</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Vinod Khosla, an alumni of IIT Delhi founded Sun
+                      Microsystems, Inc. (Sun for short) as an American company
+                      that sold computers, computer components, software, and
+                      information technology services and created the Java
+                      programming language, the Solaris operating system, ZFS,
+                      the Network File System (NFS), and SPARC. Sun contributed
+                      significantly to the evolution of several key computing
+                      technologies, among them Unix, RISC processors, thin
+                      client computing, and virtualized computing.
+                    </p>
+                    <h3>Vinod Khosla</h3>
+                    <h4>Sun Microsystems</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/flipkart.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/flipkart.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Flipkart, the big billion e-commerce startup, was founded in 2007 by Sachin Bansal and Binny Bansal, both alumni of the Indian Institute of Technology Delhi. They left their jobs at Amazon and brought sales under the roof
-                                    of technology. They started this venture when e-commerce was more of a risk than opportunity but with a clear vision of offering the best consumer experience to internet users, they witnessed incredible growth in the
-                                    last 12 years.
-                  </p>
-                  <h3>Sachin Bansal & Binny Bansal</h3>
-                  <h4>Flipkart</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Flipkart, the big billion e-commerce startup, was founded
+                      in 2007 by Sachin Bansal and Binny Bansal, both alumni of
+                      the Indian Institute of Technology Delhi. They left their
+                      jobs at Amazon and brought sales under the roof of
+                      technology. They started this venture when e-commerce was
+                      more of a risk than opportunity but with a clear vision of
+                      offering the best consumer experience to internet users,
+                      they witnessed incredible growth in the last 12 years.
+                    </p>
+                    <h3>Sachin Bansal & Binny Bansal</h3>
+                    <h4>Flipkart</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/zomato.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/zomato.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Our very own alumni Deepinder Goyal, a maths and computing graduate, started an internet directory for restaurant menus out of his apartment in 2008 which now has become one of the biggest restaurant aggregator and food
-                                    delivery startup in 24 countries and more than 10,000 cities.
-                  </p>
-                  <h3>Deepinder Goyal</h3>
-                  <h4>Zomato</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Our very own alumni Deepinder Goyal, a maths and computing
+                      graduate, started an internet directory for restaurant
+                      menus out of his apartment in 2008 which now has become
+                      one of the biggest restaurant aggregator and food delivery
+                      startup in 24 countries and more than 10,000 cities.
+                    </p>
+                    <h3>Deepinder Goyal</h3>
+                    <h4>Zomato</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/cohesity.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/cohesity.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Founded in June 2013 by Mohit Aron, who previously co-founded storage company Nutanix Cohesity is a privately held information technology company headquartered in San Jose, California. They develop software that allows
-                                    IT professionals to backup, manage and gain insights from their data, across multiple systems. .The company's main product, DataPlatform, is hyper-converged software that allows businesses to consolidate a variety of
-                                    workloads, including backups, archives, test and development, along with analytics data, onto a single cloud-native platform.
-                  </p>
-                  <h3>Mohit Aron</h3>
-                  <h4>Cohesity</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Founded in June 2013 by Mohit Aron, who previously
+                      co-founded storage company Nutanix Cohesity is a privately
+                      held information technology company headquartered in San
+                      Jose, California. They develop software that allows IT
+                      professionals to backup, manage and gain insights from
+                      their data, across multiple systems. .The company's main
+                      product, DataPlatform, is hyper-converged software that
+                      allows businesses to consolidate a variety of workloads,
+                      including backups, archives, test and development, along
+                      with analytics data, onto a single cloud-native platform.
+                    </p>
+                    <h3>Mohit Aron</h3>
+                    <h4>Cohesity</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/policybazaar.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/policybazaar.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Policybazaar is India's largest online financial services platform. An Indian insurance aggregator and a global financial technology startup, the company was founded in June 2008 by Yashish Dahiya, Alok Bansal, and Avaneesh
-                                    Nirjar. Since 2008, the company has been a key force in establishing an informative online financial services platform in India.
-                  </p>
-                  <h3>Yashish Dahiya</h3>
-                  <h4>PolicyBazaar</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Policybazaar is India's largest online financial services
+                      platform. An Indian insurance aggregator and a global
+                      financial technology startup, the company was founded in
+                      June 2008 by Yashish Dahiya, Alok Bansal, and Avaneesh
+                      Nirjar. Since 2008, the company has been a key force in
+                      establishing an informative online financial services
+                      platform in India.
+                    </p>
+                    <h3>Yashish Dahiya</h3>
+                    <h4>PolicyBazaar</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/delhivery.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/delhivery.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Since its inception in 2011, Delhivery has become India’s leading supply chain service provider, encompassing over 18,000 PIN Codes in India. Started with five co-founders, including our very own alumni Mr. Kapil Bharati,
-                    and a handful of delivery boys, the startup has now over 2500 plus employees who service a 600-client base across express and fulfillment logistics
-                  </p>
-                  <h3>Sahil Barua</h3>
-                  <h4>Delhivery</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Since its inception in 2011, Delhivery has become India’s
+                      leading supply chain service provider, encompassing over
+                      18,000 PIN Codes in India. Started with five co-founders,
+                      including our very own alumni Mr. Kapil Bharati, and a
+                      handful of delivery boys, the startup has now over 2500
+                      plus employees who service a 600-client base across
+                      express and fulfillment logistics
+                    </p>
+                    <h3>Sahil Barua</h3>
+                    <h4>Delhivery</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/udaan.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/udaan.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Pranay Chulet is an Indian entrepreneur who has managed to build a billion-dollar business for the local market through Quikr, India’s leading cross-category classifieds platform. His vision of putting second-hand first
-                    is gaining popularity, considering the environmental benefits associated with reusing products.
-                  </p>
-                  <h3>Pranay Chulet</h3>
-                  <h4>Udaan</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Pranay Chulet is an Indian entrepreneur who has managed to
+                      build a billion-dollar business for the local market
+                      through Quikr, India’s leading cross-category classifieds
+                      platform. His vision of putting second-hand first is
+                      gaining popularity, considering the environmental benefits
+                      associated with reusing products.
+                    </p>
+                    <h3>Pranay Chulet</h3>
+                    <h4>Udaan</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/pine.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/pine.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Pine Labs is an Indian merchant platform company that provides financing and last-mile retail transaction technology. Co-Founded in 1998 by Rajul Garg and Tarun Upaday, it provides a merchant platform and makes software
-                    for point of sale (PoS) machines. The company has more than 70,000 retailers across India, including major retail outlets such as Mark's and Spencer's Retail, Pantaloons, Shoppers Stop and Westside.
-                  </p>
-                  <h3>Rajul Garg & Tarun Upaday</h3>
-                  <h4>Pine Labs</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Pine Labs is an Indian merchant platform company that
+                      provides financing and last-mile retail transaction
+                      technology. Co-Founded in 1998 by Rajul Garg and Tarun
+                      Upaday, it provides a merchant platform and makes software
+                      for point of sale (PoS) machines. The company has more
+                      than 70,000 retailers across India, including major retail
+                      outlets such as Mark's and Spencer's Retail, Pantaloons,
+                      Shoppers Stop and Westside.
+                    </p>
+                    <h3>Rajul Garg & Tarun Upaday</h3>
+                    <h4>Pine Labs</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/snapdeal.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/snapdeal.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Rohit Bansal is an Indian entrepreneur, co-founder and CEO of e-commerce platform Snapdeal which is an Indian e-commerce company that started in 2010. With millions of users and more than 300,000 sellers, Snapdeal is the
-                    shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India
-                  </p>
-                  <h3>Rohit Bansal</h3>
-                  <h4>Snapdeal</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Rohit Bansal is an Indian entrepreneur, co-founder and CEO
+                      of e-commerce platform Snapdeal which is an Indian
+                      e-commerce company that started in 2010. With millions of
+                      users and more than 300,000 sellers, Snapdeal is the
+                      shopping destination for Internet users across the
+                      country, delivering to 6000+ cities and towns in India
+                    </p>
+                    <h3>Rohit Bansal</h3>
+                    <h4>Snapdeal</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/rivigo.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/rivigo.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Founded in August 2014, Rivigo is one of the fastest-growing startups in India which provides express surface logistics all over the country. It was the vision of our alumni Gazal Kalra that today, Rivigo has reached 4000+
-                    cities, 5000+ high-tech truck fleet with around 30k pin codes covered
-                  </p>
-                  <h3>Gazal Kalra</h3>
-                  <h4>Rivigo</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Founded in August 2014, Rivigo is one of the
+                      fastest-growing startups in India which provides express
+                      surface logistics all over the country. It was the vision
+                      of our alumni Gazal Kalra that today, Rivigo has reached
+                      4000+ cities, 5000+ high-tech truck fleet with around 30k
+                      pin codes covered
+                    </p>
+                    <h3>Gazal Kalra</h3>
+                    <h4>Rivigo</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/shopclues.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/shopclues.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    ShopClues is an online marketplace established in July 2011 in Silicon Valley by Sanjay Sethi along with other co-founders. The company has over 600,000 merchants and 28 million products on its platform, serving over 32,000
-                    pincodes across the country
-                  </p>
-                  <h3>Sanjay Sethi</h3>
-                  <h4>ShopClues</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      ShopClues is an online marketplace established in July
+                      2011 in Silicon Valley by Sanjay Sethi along with other
+                      co-founders. The company has over 600,000 merchants and 28
+                      million products on its platform, serving over 32,000
+                      pincodes across the country
+                    </p>
+                    <h3>Sanjay Sethi</h3>
+                    <h4>ShopClues</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/appdyn.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/appdyn.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    A Computer Science graduate from IIT Delhi, Jyoti Bansal founded AppDynamics in April 2008 which grew onto becoming a unicorn. This application performance management (APM) and IT operations analytics (ITOA) company focuses
-                                    on managing the performance and availability of applications across cloud computing environments as well as inside the data center
-                  </p>
-                  <h3>Jyoti Bansal</h3>
-                  <h4>AppDynamics</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      A Computer Science graduate from IIT Delhi, Jyoti Bansal
+                      founded AppDynamics in April 2008 which grew onto becoming
+                      a unicorn. This application performance management (APM)
+                      and IT operations analytics (ITOA) company focuses on
+                      managing the performance and availability of applications
+                      across cloud computing environments as well as inside the
+                      data center
+                    </p>
+                    <h3>Jyoti Bansal</h3>
+                    <h4>AppDynamics</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/indiabulls.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/indiabulls.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    Our own Mechanical Engineer, Sameer Gehlaut went on to become a renowned Indian businessman and founder & chairman of the Indiabulls Group, an Indian conglomerate headquartered in Gurgaon, India. Its primary businesses
-                    are housing finance, consumer finance, and wealth management
-                  </p>
-                  <h3>Sameer Gahlaut</h3>
-                  <h4>Indiabulls</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      Our own Mechanical Engineer, Sameer Gehlaut went on to
+                      become a renowned Indian businessman and founder &
+                      chairman of the Indiabulls Group, an Indian conglomerate
+                      headquartered in Gurgaon, India. Its primary businesses
+                      are housing finance, consumer finance, and wealth
+                      management
+                    </p>
+                    <h3>Sameer Gahlaut</h3>
+                    <h4>Indiabulls</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/nimble.jpg" class="testimonial-img" alt="">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/nimble.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
 
-                <div class="profile mt-auto">
-                  <p>
-                    HPE Nimble Storage is a predictive flash storage technology developed by Nimble Storage and founded by our alumni Umesh Maheshwari along with other co-founders. Nimble is a subsidiary of Hewlett Packard Enterprise
-                  </p>
-                  <h3>Umesh Maheshwari</h3>
-                  <h4>Nimble Storage</h4>
+                  <div class="profile mt-auto">
+                    <p>
+                      HPE Nimble Storage is a predictive flash storage
+                      technology developed by Nimble Storage and founded by our
+                      alumni Umesh Maheshwari along with other co-founders.
+                      Nimble is a subsidiary of Hewlett Packard Enterprise
+                    </p>
+                    <h3>Umesh Maheshwari</h3>
+                    <h4>Nimble Storage</h4>
+                  </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
-
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
+      </section>
+      <!-- End Testimonials Section -->
 
-      </div>
+      <!-- End Testimonials Section -->
 
-    </section><!-- End Testimonials Section -->
-        
-        
-<!-- End Testimonials Section -->
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Team</h2>
+            <p>Our hard working team</p>
+            <div class="explore">
+              <button><a href="./team22.html">Explore +</a></button>
+            </div>
+          </header>
 
-    <!-- ======= Team Section ======= -->
-       <section id="team" class="team">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Team</h2>
-          <p>Our hard working team</p>
-          <div class="explore"><button><a href="./team.html" >Explore +</a></button></div>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/PM.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/PM.jpg" class="img-fluid" alt="" />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Prof. Prashant Mishra</h4>
+                  <span>Faculty Head</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Prof. Prashant Mishra</h4>
-                <span>Faculty Head</span>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/Bhanu.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Bhanu Bharadwaj</h4>
+                  <span>Overall Coordinator</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/satyam.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Satyam Kesari</h4>
+                  <span>Co-Overall Coordinator</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/ridhima.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Ridhima Nair</h4>
+                  <span>Co-Overall Coordinator</span>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/Bhanu.jpeg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Bhanu Bharadwaj</h4>
-                <span>Overall Coordinator</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/satyam.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Satyam Kesari</h4>
-                <span>Co-Overall Coordinator</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/ridhima.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Ridhima Nair</h4>
-                <span>Co-Overall Coordinator</span>
-              </div>
-            </div>
-          </div>
-
         </div>
+      </section>
+      <!-- End Team Section -->
+      <!-- End Team Section -->
 
-      </div>
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <!--           <h2>Our Sponsors</h2> -->
+            <p>Our Sponsors</p>
+            <div class="explore">
+              <button><a href="./sponsors.html">Explore +</a></button>
+            </div>
+          </header>
 
-    </section><!-- End Team Section --><!-- End Team Section -->
+          <!-- change the images of your new client/sponsors and we can add individual links to each client/sponsors image. -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-<!--           <h2>Our Sponsors</h2> -->
-          <p>Our Sponsors</p>
-          <div class="explore"><button><a href="./sponsors.html">Explore +</a></button></div>
-        </header>
-
-        <!-- change the images of your new client/sponsors and we can add individual links to each client/sponsors image. -->
-
-        <div class="clients-slider swiper-container">
-          <div class="swiper-wrapper align-items-center">
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client1.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><img src="assets/img/clients/client2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client8.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client9.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client10.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client11.png" class="img-fluid" alt=""></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client12.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><img src="assets/img/clients/client13.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client14.png" class="img-fluid" alt=""></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client15.png" class="img-fluid" alt=""></div>
+          <div class="clients-slider swiper-container">
+            <div class="swiper-wrapper align-items-center">
+              <!-- <div class="swiper-slide"><img src="assets/img/clients/client1.png" class="img-fluid" alt=""></div> -->
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client2.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client3.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client4.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client5.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client6.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client8.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client9.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client10.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client11.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <!-- <div class="swiper-slide"><img src="assets/img/clients/client12.png" class="img-fluid" alt=""></div> -->
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client13.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client14.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <!-- <div class="swiper-slide"><img src="assets/img/clients/client15.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client16.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client17.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client18.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client19.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client20.png" class="img-fluid" alt=""></div> -->
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client21.png" class="img-fluid" alt=""></div>
+              <!-- <div class="swiper-slide"><img src="assets/img/clients/client21.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client22.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client23.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client24.png" class="img-fluid" alt=""></div>
@@ -1152,165 +1545,234 @@
             <div class="swiper-slide"><img src="assets/img/clients/client26.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client27.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client28.png" class="img-fluid" alt=""></div> -->
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-      </div>
+      </section>
+      <!-- End Clients Section -->
 
-    </section><!-- End Clients Section -->
+      <!-- ======= Recent Blog Posts Section ======= -->
+      <section id="recent-blog-posts" class="recent-blog-posts">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Blog</h2>
+            <p>Recent posts form our Blog</p>
+          </header>
 
-    <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/blog-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <span class="post-date">June 5, 2021</span>
+                <h3 class="post-title">
+                  KGEC E-Cell Virtual Intern Recruitment Drive 2021
+                </h3>
+                <a
+                  href="https://kgececell.wordpress.com/blog/"
+                  target="_blank"
+                  class="readmore stretched-link mt-auto"
+                  ><span>Read More</span><i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
 
-      <div class="container" data-aos="fade-up">
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/blog-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <span class="post-date">August 21, 2020</span>
+                <h3 class="post-title">Is Reliance Buying Tiktok-India?</h3>
+                <a
+                  href="https://kgececell.wordpress.com/blog/"
+                  target="_blank"
+                  class="readmore stretched-link mt-auto"
+                  ><span>Read More</span><i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
 
-        <header class="section-header">
-          <h2>Blog</h2>
-          <p>Recent posts form our Blog</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">June 5, 2021</span>
-              <h3 class="post-title">KGEC E-Cell Virtual Intern Recruitment Drive 2021</h3>
-              <a href="https://kgececell.wordpress.com/blog/" target="_blank" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/blog-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <span class="post-date">September 26, 2020</span>
+                <h3 class="post-title">Pipilika.com : Bengali Search Engine</h3>
+                <a
+                  href="https://kgececell.wordpress.com/blog/"
+                  target="_blank"
+                  class="readmore stretched-link mt-auto"
+                  ><span>Read More</span><i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">August 21, 2020</span>
-              <h3 class="post-title">Is Reliance Buying Tiktok-India?</h3>
-              <a href="https://kgececell.wordpress.com/blog/" target="_blank" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">September 26, 2020</span>
-              <h3 class="post-title">Pipilika.com : Bengali Search Engine</h3>
-              <a href="https://kgececell.wordpress.com/blog/" target="_blank" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
         </div>
+      </section>
+      <!-- End Recent Blog Posts Section -->
 
-      </div>
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+          </header>
 
-    </section><!-- End Recent Blog Posts Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Our Address</h3>
-              <p>
-                IIT Delhi, Hauz Khas, Delhi, 110016
-              </p>
-                </div>
-              </div>
-              
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <a href="mailto:  edciitd.team@gmail.com">
-              <p> edciitd.team@gmail.com</p></a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd3mr_LWCLktqELWVcJD6bYEtDvj-o8qzzUplVs--BMB_8DVA/formResponse" method="post" target="_blank" class="contact-form">
+          <div class="row gy-4">
+            <div class="col-lg-6">
               <div class="row gy-4">
-              <div class="col-md-6">
-                
-                <input name="entry.1734483132" type="text" id="name" required="" placeholder="Your Name" class="form-control ">
-              </div>
-              <div class="col-md-6">
-                
-                <input type="email" id="email" name="entry.59176879" placeholder="Email Address" required="" class="form-control">
-              </div>
-              <div class="col-md-12">
-                
-                <input name="entry.1589129957" type="text" id="subject" required="" placeholder="Subject" class="form-control ">
-              </div>
-              <div class="col-md-12">
-                
-                <textarea id="message" name="entry.1105594745" placeholder="Your Message" required="" class="form-control "></textarea>
-              </div>
-              <div class="col-md-12 text-center ">
-              <button class="text-white contact-button bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-                Send Message
-              </button>
-            </div>
-            </div>
-            </form>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Our Address</h3>
+                    <p>IIT Delhi, Hauz Khas, Delhi, 110016</p>
+                  </div>
+                </div>
 
-            
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <a href="mailto:  edciitd.team@gmail.com">
+                      <p>edciitd.team@gmail.com</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-lg-6">
+              <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd3mr_LWCLktqELWVcJD6bYEtDvj-o8qzzUplVs--BMB_8DVA/formResponse"
+                method="post"
+                target="_blank"
+                class="contact-form"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      name="entry.1734483132"
+                      type="text"
+                      id="name"
+                      required=""
+                      placeholder="Your Name"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      id="email"
+                      name="entry.59176879"
+                      placeholder="Email Address"
+                      required=""
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <input
+                      name="entry.1589129957"
+                      type="text"
+                      id="subject"
+                      required=""
+                      placeholder="Subject"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <textarea
+                      id="message"
+                      name="entry.1105594745"
+                      placeholder="Your Message"
+                      required=""
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button
+                      class="
+                        text-white
+                        contact-button
+                        bg-red-500
+                        border-0
+                        py-2
+                        px-6
+                        focus:outline-none
+                        hover:bg-red-600
+                        rounded
+                        text-lg
+                      "
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
-
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/blue-01.png" alt="" style="border-radius: 10px;">
-              <!-- <span>IIT Delhi e-Cell</span> -->
-            </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links mt-3">
-              <a href="https://twitter.com/edciitdelhi" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/edciitdelhi/" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/edc_iitd/" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/edc-iit-delhi" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img
+                  src="assets/img/blue-01.png"
+                  alt=""
+                  style="border-radius: 10px; image-rendering: crisp-edges"
+                />
+                <!-- <span>IIT Delhi e-Cell</span> -->
+              </a>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/edciitdelhi" class="twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a href="https://www.facebook.com/edciitdelhi/" class="facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/edc_iitd/" class="instagram"
+                  ><i class="bi bi-instagram bx bxl-instagram"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/edc-iit-delhi"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin bx bxl-linkedin"></i
+                ></a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-1 col-6 footer-links">
-            <!-- <h4>Our Events</h4>
+            <div class="col-lg-1 col-6 footer-links">
+              <!-- <h4>Our Events</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Pitch-A-thon</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Cipher</a></li>
@@ -1318,47 +1780,64 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Insignation</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">BizQuiz</a></li>
             </ul> -->
-          </div>
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#services">Events</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#row feture-tabs">Becon</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#team">Team</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact Us</a></li>
-              <!-- <li><i class="bi bi-chevron-right"></i> <a href="https://kgececell.wordpress.com/" target="_blank">Blog</a></li>
+            </div>
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#hero">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#about">About us</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#services">Events</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#row feture-tabs">Becon</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#team">Team</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#contact">Contact Us</a>
+                </li>
+                <!-- <li><i class="bi bi-chevron-right"></i> <a href="https://kgececell.wordpress.com/" target="_blank">Blog</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
-            </ul>
+              </ul>
+            </div>
+
+            <div
+              class="
+                col-lg-3 col-md-12
+                footer-contact
+                text-center text-md-start
+              "
+            >
+              <h4>Contact Us</h4>
+              <p>
+                Entrepreneurship Cell <br />
+                IIT Delhi<br />
+                Hauz Khas, Delhi <br />
+
+                <strong>Email:</strong> edciitd.team@gmail.com<br />
+              </p>
+            </div>
           </div>
-
-          
-
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>
-              Entrepreneurship Cell <br>
-              IIT Delhi<br>
-              Hauz Khas, Delhi <br>
-              
-              
-              <strong>Email:</strong>  edciitd.team@gmail.com<br>
-            </p>
-
-          </div>
-
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- Licensing information: https://www.linkedin.com/in/anuragchakraborty2001/ -->
-         Designed by eDC Tech Team <br>
-        eDC-IITD © 2021 
-        <!-- <ul>
+      <div class="container">
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- Licensing information: https://www.linkedin.com/in/anuragchakraborty2001/ -->
+          Designed by eDC Tech Team <br />
+          eDC-IITD © 2021
+          <!-- <ul>
           <a href="https://www.linkedin.com/in/vaibhav-agarwal-iitd/" style="color: #012970;">
           <li style="display: inline; padding: 4px;">Vaibhav</li></a>
           <a href="" style="color: #012970;">
@@ -1375,26 +1854,27 @@
 GUYS ADD YOUR NAME HERE!
 
         </ul> -->
+        </div>
       </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
