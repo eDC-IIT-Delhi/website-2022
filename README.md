@@ -7,6 +7,7 @@
 - [x] IITD unicorns on landing pg
 - [x] Team on landing + separate pg
 - [x] sponsors on landing + separate pg
+- [x] blog page + corrected header-footer
 ### Samir
 - [ ] Header
 - [ ] Landing page
