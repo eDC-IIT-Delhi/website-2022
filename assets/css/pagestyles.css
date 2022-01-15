@@ -4,15 +4,15 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Bellota Text', cursive;
+   
 }
 
 
 body
 {
    /* display: flex; */
-   padding-left: 50px;
-   padding-right: 50px;
+   /* padding-left: 50px;
+   padding-right: 50px; */
    justify-content: center;
    align-items: center;
    min-height: 100vh;
@@ -28,7 +28,7 @@ body
   width: 110%;
   transition: all 0.5s;
   z-index: 997;
-  padding: 10px 50px;
+  padding: 0px 90px 10px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);  
 }
 
@@ -43,7 +43,7 @@ body
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 60px;
   margin-right: 6px;
 }
 
@@ -71,8 +71,9 @@ a:-webkit-any-link {
 .navbar {
   position: absolute;
   width: 850px;
-  padding-left: 39vw;
+  padding-left: 34vw;
   margin-top: -40px;
+  
 }
 
 .navbar ul {
@@ -94,11 +95,12 @@ a:-webkit-any-link {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 570;
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
   text-decoration: none;
+  font-family: "Nunito", sans-serif;
 }
 
 .navbar a i,
@@ -143,6 +145,7 @@ a:-webkit-any-link {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
+  
 }
 
 .navbar .dropdown ul li {
@@ -322,7 +325,9 @@ body
     margin: 20px auto;
     margin-left: 44%;
     font-weight: lighter;
-    color:#4154f1;
+    color:#012970;
+    font-family: "Open Sans", sans-serif;
+    padding: 40px 0;
 }
 
 .container
