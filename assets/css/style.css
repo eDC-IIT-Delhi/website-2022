@@ -1403,6 +1403,13 @@ section {
   padding: 60px 0;
 }
 
+
+.team img{
+  width: 230px;
+  height: 270px;
+  object-fit: cover;
+}
+
 .team .member {
   overflow: hidden;
   text-align: center;
