@@ -1110,6 +1110,8 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(255, 255, 255, 0.75);
+  height: 300px;
+  width:100%
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1123,10 +1125,14 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  height: 300px;
+  width:100%
 }
 
 .portfolio .portfolio-wrap img {
   transition: 1s;
+  height: 300px;
+  width:100%
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1143,6 +1149,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 300px;
+  width:100%
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -1217,6 +1225,8 @@ section {
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
+  height:300px;
+  width:100%;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -2448,15 +2458,16 @@ textarea {
 
 
 .img-event{
-  height: 300px;
   box-shadow: 0 4px 8px 0 rgba(1, 158, 231, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0 25px 50px 25px;
+  border-radius: 10px;
 }
+
 .event{
   text-align: center;
-  padding: 55px 0 0 0 ;
-  margin: 0;
+  /* padding: 55px 0 0 0 ;
+  margin: 0; */
 }
+
 .blog_template img{
   width: 50%;
   padding-top: 20px;
